@@ -23,3 +23,15 @@ hamburger.addEventListener('click', toggleMobileMenu)
 
 // initialize aos (library for scroll animation)
 AOS.init()
+
+window.addEventListener("scroll", () => {
+	const nav = document.querySelector(".nav");
+	const navcontainer = document.getElementById("navcont");
+	if (window.scrollY > 10) {
+		navcontainer.style.width = "100%";
+		nav.style.top = "0";
+	} else {
+		navcontainer.style.width = "90%";
+		nav.style.top = "20px";
+	}
+});
