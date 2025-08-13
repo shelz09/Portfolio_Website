@@ -78,7 +78,10 @@ body {
 	min-height: 100vh;
 	text-rendering: optimizeSpeed;
 }
-
+body.open {
+    overflow: hidden;
+    height: 100vh; /* locks scroll height */
+}
 a {
 	text-decoration: none;
 	color: currentColor;
