@@ -260,7 +260,7 @@ small {
 	min-width:90%;
 	padding: 0.85rem 2rem;
 	background-color: var(--secondary-clr);
-	border-radius: 0.5rem;
+	border-radius: 8px;
 	font-size: 1.4rem;
 	box-shadow:black 0px 15px 32px -18px;
 	transition: top 0.3s ease;
