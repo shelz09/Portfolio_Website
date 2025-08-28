@@ -60,6 +60,7 @@
 	box-sizing: border-box;
 }
 
+
 /* Set core root defaults */
 @media screen and (prefers-reduced-motion: no-preference) {
 	html {
